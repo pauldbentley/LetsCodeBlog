@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bg-primary {
+    background-color: #1abc9c !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #1abc9c;
+    word-wrap: break-word;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+
+    &:hover,
+    &:focus {
+        color: #7b7b7b;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &:before,
+    &:after {
+        transition: color 0.1s ease-in, background 0.1s ease-in;
+    }
+}

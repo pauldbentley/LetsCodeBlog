@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# LetsCodeBlog
+/src/LetsCodeBlog/wwwroot/uploads
+/src/LetsCodeBlog/wwwroot/assets/css
+/src/LetsCodeBlog/*.db

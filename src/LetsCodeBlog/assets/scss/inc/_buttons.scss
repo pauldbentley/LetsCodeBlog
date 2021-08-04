@@ -1,0 +1,12 @@
+.btn {
+    &.btn-primary {
+        background-color: #1abc9c;
+        border-color: #1abc9c;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: darken(#1abc9c, 15%);
+            border-color: darken(#1abc9c, 15%);
+        }
+    }
+}
